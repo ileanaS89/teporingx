@@ -1,0 +1,497 @@
+
+
+/*PORTADA*/
+
+
+.portada-home{
+ background: #fbf8f4;
+ display: flex;
+  
+}
+.teporingx-home{
+    position: absolute;
+    font-family: 'keep';
+    top: 38%;
+    right: 5%;
+    color: #0040D0;
+    font-size: 150px;
+  
+}
+.teporingas-home{
+    padding-top: 5%;
+    width: 70%;
+    padding-left: 0;
+   
+}
+
+button{
+    border: none;
+    background: none;
+
+}
+
+/*NOSOTRAS */
+.nosotras-seccion{
+   margin-top: 50px;
+   background: linear-gradient(#fbf8f43a, #dafea4, #fbf8f428);
+
+}
+
+
+.texto-nosotras{
+    color: #0040D0;
+    font-size: 2rem;
+    font-weight:bolder;
+    padding-top: 5rem;
+   
+}
+
+
+
+/*RETRATOS */
+
+.retratos-home{
+    margin-top: 10%;
+}
+
+.titulo-home{
+    font-family: 'phase';
+    color: #0040D0;
+    font-size: 6.2rem;
+
+}
+
+
+.descripcion-home{
+   color: #0040D0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 550px;
+    
+}
+
+/*CONTENIDO*/
+
+
+
+.retrato-uno, .retrato-dos {
+    border-radius: 1.8rem 1.8rem 1.8rem 1.8rem;
+    width: 31rem;
+}
+
+.retrato-uno{
+    height: 380px;
+}
+
+
+.subtitulo-re , .btn-retratos{
+    color: #DAFEA4;
+    font-size: 3.5rem;
+    position: absolute;
+   
+}
+
+.subtitulo-re{
+    top: 15%;
+    left: 10%;
+}
+
+.btn-play-uno{
+    top: 55%;
+    left: 60%;
+    transition: all 1s;
+}
+
+
+
+
+.btn-play-dos{
+    top: 80%;
+    left: 70%;
+    transition: all 1s;
+}
+
+
+.btn-play-uno:hover{color: #0040D0;}
+.btn-play-dos:hover{color: #0040D0;}
+
+
+
+.video-retrato{
+    border-radius: 1.8rem 1.8rem 1.8rem 1.8rem;
+    width: 31rem;
+    height: 380px;
+   position: absolute;
+    opacity: 0;
+    left: 3%;
+
+ 
+}
+.gifpaste-dos{
+    border-radius: 1.8rem 1.8rem 1.8rem 1.8rem;
+    position: absolute;
+    width: 31rem;
+    opacity: 0; 
+    left: 2%;
+}
+
+
+.gifpaste-opacy{
+    opacity: 0;
+}
+
+.opacy{
+    opacity: 1;
+}
+
+
+
+
+
+
+/*ESAPCIO SONORO */
+
+.contenido-espacio-home{
+  display: inline-flex;
+
+}
+
+
+.contenido-espacio-home > .descripcion-home{
+    padding-left: 10%;
+    margin-top: 5%;
+  
+}
+
+
+
+.espacio-imagen{
+    border-radius: 1.8rem 1.8rem 1.8rem 1.8rem;
+    width:900px;
+    margin-left: 10%;
+
+}
+
+
+.espacio-titulos{
+    color: #DAFEA4;
+    font-size: 4rem;
+    position: absolute;
+    padding-top: 15%;
+    padding-left: 15%;
+    
+}
+
+.icon-esp{
+    color: #DAFEA4;
+    position: absolute;
+    font-size:3rem;
+    padding-top: 36%;
+    padding-left: 75%;
+    text-decoration: none;
+    transition: all 1s;
+
+}
+.icon-esp:hover{
+    color: #0040D0;
+}
+
+/*OPINION */
+
+
+main{
+    background: linear-gradient(#fbf8f43a, #dafea4, #fbf8f4, #fbf8f43a);
+    padding-bottom: 150px;
+    left: 0%;
+    right: 0%;
+    margin: 0%;
+
+}
+
+
+
+/*columnas*/
+.views-rowDos {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+   margin: 0;
+   padding: 0;
+   margin-left:7% ;
+   margin-right: 7%;
+}
+
+
+/*OPINION-CONTENEDOR*/
+
+
+.views-content {
+    background-color: #0040D0;
+    width:25rem;
+    border-radius:20px 20px 20px 20px;
+    margin-bottom: 10%;
+    transition: all 1s;
+   
+
+}
+
+
+.title-product {
+     color: #DAFEA4;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 20px 10px 20px;
+}
+.imagen-opinion{
+    width: 25rem;
+    padding-top: 1.8rem;
+    bottom: 0;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.descripcion{
+    color: #DAFEA4;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    font-weight:bold;
+}
+.contenedor-botones-opinion{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+
+.btn-flecha > img{
+    width: 90px;
+}
+
+.btn-flecha:hover{
+    transform: scale(1.2);
+}
+.views-content:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+/*ENCUENTROS*/
+
+                                                                                       
+
+.encuentro-imagen{
+ width: 100%;
+ border-radius: 30px 30px 30px 30px;
+ display: flex;
+}
+.titulo-encuentro-home{
+    position: absolute;
+    font-family: 'phase';
+    color: #DAFEA4;
+    font-size: 100px;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+.btn-ir{
+    position: absolute;
+   border: 5px solid #DAFEA4  ;
+    border-radius: 20px 20px 20px 20px;
+    width: 7.5rem;
+    color: #DAFEA4;
+    font-size: 4rem;
+    margin-top:45%;
+    margin-left: 70%;
+   background: none;
+   transition: all 1s;
+}
+
+.btn-ir:hover{
+ 
+     color: #0040D0;
+     background: #DAFEA4;
+}
+
+
+
+
+
+
+/* APOYANOS  */
+
+.apoyanos-home{
+    background: linear-gradient(to top,#DAFEA4, rgba(0, 0, 0, 0));
+    cursor: pointer;
+    color: #0040D0;
+
+}
+
+.titulo-apoyanos-home{
+  
+    font-family: 'phase';
+    font-size: 5rem;
+    text-align: center;
+}
+
+.descripcion-apoyanos-home{
+    font-size: 3rem;
+    font-weight:bolder;
+    padding-top: 30px;
+}
+
+
+.apoyanos-home:hover{
+    background: linear-gradient(to bottom,#0040D0, rgba(0, 0, 0, 0));
+    color: #DAFEA4;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /*PORTADA*/
+ .teporingx-home{
+    font-size: 6rem;
+    top: 70%;
+    text-align: center;
+ }
+.teporingas-home{
+    width: 100%;
+    padding-top: 15%;
+ 
+}
+
+/*NOSOTRAS*/
+
+
+.texto-nosotras{
+    font-size: 1.5rem;
+   
+}
+
+
+ /*RETRATOS*/
+.descripcion-home{
+    width: 100%;
+}
+
+.retrato-uno, .retrato-dos , .video-retrato, .gifpaste-dos{
+    width:29rem;
+    margin-bottom: 2rem;
+
+}
+
+.btn-retratos , .subtitulo-re{
+    font-size: 2.5rem;
+}
+.btn-play-dos{
+    top:70%;
+}
+
+/*ESPACIO*/
+
+.contenido-espacio-home{
+    display: block;
+  
+  }
+  
+.contenido-espacio-home > .descripcion-home{
+    padding-left: 0%;
+    margin-top: 5%;
+  
+}
+
+.espacio-titulos{
+    padding-left: 5%;
+    font-size: 3rem;
+}
+
+.espacio-imagen{
+    width:470px;
+    margin-left: 0px;
+}
+
+.icon-esp{
+    font-size: 2rem;
+}
+
+
+
+
+
+/*ENCUENTROS*/
+
+
+.titulo-encuentro-home{
+  font-size: 4.5rem;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+
+.encuentro-imagen{
+    margin: 0px;
+    height: 650px;
+    object-fit:cover;
+   }
+
+   .btn-ir{
+    width: 6rem;
+    font-size: 3rem;
+    margin-top:90%;
+    margin-left: 40%;
+
+}
+
+/*APOYANOS*/
+.titulo-apoyanos-home{
+  
+    font-size: 4rem;
+    text-align: center;
+}
+
+.descripcion-apoyanos-home{
+    font-size: 2rem;
+  
+
+}
+}
+
+
+@media (min-width:1200px) and (max-width:1400px) {
+ /*PORTADA*/
+ .teporingx-home{
+    font-size: 6rem;
+    top: 35%;
+    text-align: center;
+ }
+.teporingas-home{
+    width: 80%;
+    padding-top: 5%;
+ 
+}
+
+
+
+ /*RETRATOS*/
+
+.retrato-uno, .retrato-dos , .video-retrato, .gifpaste-dos{
+    width:30rem;
+    margin-bottom: 2rem;
+
+}
+.retrato-uno, .video-retrato{
+    height:25rem;
+}
+
+.btn-retratos , .subtitulo-re{
+    font-size: 2.5rem;
+}
+.btn-play-uno{
+    top:45%;
+}
+
+}

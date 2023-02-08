@@ -1,0 +1,189 @@
+.titulo-encuentros{
+    color: #0040d0;
+    font-family: 'phase';
+    font-size: 8rem;
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+
+.enc-que{
+    background: radial-gradient(circle farthest-side, #DAFEA4, #fbf8f4, #fbf8f4);
+
+}
+
+.titulo-enc-que{
+    font-size: 6rem;
+    font-family: 'phase';
+    color: #0040d0;
+
+}
+
+.text-enc-que{
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-top: 10%;
+    color: #162802;
+}
+
+
+
+/*seccion 3*/
+.secciontres{
+    padding-top: 5%;
+}
+.titulo-tres{
+    font-family: 'phase';
+    font-size: 7rem;
+    color: #0040D0;
+    padding-top: 5%;
+}
+
+
+.text-tres{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+
+}
+
+.col-encuentros{
+    padding-bottom: 5%;
+}
+.col-encuentros > .titulo{
+    color: #DAFEA4;
+    font-size: 3rem;
+    width: 450px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.col-encuentros > button{
+    border-radius: 30px 30px 30px 30px;
+    border: 4px solid #DAFEA4;
+    width: 200px;
+    color: #DAFEA4;
+    background: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 20%;
+    transition: all 1s;
+}
+.col-encuentros> button:hover{
+    background: #DAFEA4;
+    color: #0040D0;
+
+}
+.col-encuentros > .imagen-tres{
+    width: 600px;
+}
+
+
+
+
+
+/*VINCULOS*/
+.vinculos{
+    background-color: #fbf8f4;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.col-vin{
+    background: radial-gradient(circle farthest-side, #DAFEA4, #fbf8f4);
+    border: 5px solid #0040D0;
+    border-radius: max(0px, min(30px, calc((100vw - 100%) * 9999)));
+    padding: 30px 20px 20px 30px;
+    text-align: center;
+    
+    
+}
+
+.contenedor-enc > div{
+    margin-left: 20px;
+}
+.col-vin >p{
+    font-weight: 400;
+    font-size: 1.5rem;
+color: #162802;}
+ .titulo-vin{
+    font-family: 'phase';
+    color: #0040D0;
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.col-vin:hover{
+    background: radial-gradient(circle farthest-side, #0040D0, #fbf8f4);
+
+   
+}
+.titulo-vin:hover{
+    color: #DAFEA4;
+    text-decoration: none;
+}
+
+
+/*MODAL*/
+.caja-uno{
+    background: #162802f1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   opacity: 0;
+   pointer-events: none;
+   z-index: 1;
+  
+} 
+.mostrar{
+opacity: 1;
+pointer-events: unset;
+
+}
+
+
+.btn-cerrar-encuentros{
+    background: none;
+    width: 250px;
+    color: #DAFEA4;
+    font-weight: 800;
+    font-size: 2.5rem;
+    border-radius: 30px 30px 30px 30px;
+    border: 4px solid #DAFEA4;
+    margin-top:5%;
+    margin-left: 20%;
+    position: absolute;
+
+  
+}
+.btn-cerrar-encuentros:hover{
+    background-color: #0040d0;
+    border: none;
+    color: #dafea4;
+}
+
+
+.col-modal-encuentro{
+    display: flex;
+    justify-content: start;
+
+   
+}
+.col-modal-encuentro >img {
+    width: 650px;
+    padding-top: 10%;
+    padding-left: 5%;
+
+}
+.col-modal-encuentro >p{
+    padding-top: 35%;
+    color: #fbf8f4;
+    font-size: 1.5rem;
+    width: 550px;
+}
