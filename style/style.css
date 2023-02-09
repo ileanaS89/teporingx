@@ -126,7 +126,6 @@ footer{
 /*VENTANA MENU*/
 .caja{
     background: radial-gradient(circle 580px, #DAFEA4, #fbf8f4);
-overflow: none;
     position: fixed;
     left: 0;
     right: 0;
@@ -176,7 +175,7 @@ pointer-events: unset;
 
 .col-uno{
     margin-left: 5%;
-    z-index: 1;
+   
 }
 
 
@@ -191,10 +190,9 @@ pointer-events: unset;
     margin-top: 5%;
     margin-left: 65%;
     position: absolute;
-    z-index: 1;
-
-  
+    
 }
+
 .btn-cerrar-menu:hover{
     background-color: #0040d0;
     color: #dafea4;
@@ -242,7 +240,7 @@ ul {
 
 
 
-@media (min-width: 375px) and (max-width: 768px){
+@media (max-width: 768px){
 
     /*MENU*/
     .search{
@@ -272,6 +270,44 @@ ul {
     height: 5rem;  
 }
 
+
+
+/*MENU-MODAL*/
+
+
+.teporingx{
+    font-size: 3.5rem;
+
+}
+.submenu{
+    font-size: 3rem;
+}
+
+.submenu-dos{
+    font-size: 2rem;
+  
+}
+
+
+.btn-cerrar-menu{
+ width: 150px;
+    font-size: 1.5rem;
+  
+}
+
+
+.logo-menu{
+    margin-left:25%;
+    margin-top: 160%;
+ }
+ 
+ .icon-menu{
+     font-size: 2rem;
+     padding-right: 0rem;
+     
+ }
+
+
 /*FOOTER*/
 footer{
     padding-top: 15%;
@@ -293,54 +329,4 @@ footer{
 }
 
 
-
-/*MENU-MODAL*/
-
-
-.teporingx{
-    font-size: 5rem;
-    padding-top: 50px;
-}
-
-.btn-cerrar-menu{
-    width: 200px;
-    font-size: 1.5rem;
-    margin-top: 5%;
-    margin-left: 55%;
-    
-
-}
-
-.submenu{
-font-size: 40px;
-}
-
-.submenu-dos{
-   font-size: 30px;
-   padding-right: 1rem;
- 
-   
-}
-.logo-menu{
-    width: 150px;
-    margin-left: 35%;
-    margin-top: 10px;
- 
- }
- .icon-menu{
-    font-size: 1.5rem;
-    color: #0040d0;
-    padding-right: 2rem;
-   
-    
-}
-.col-dos > ul{
-margin: 0;
-padding-top: 10px;
-text-align: center;}
-
-.submenu-dos{
-    display: block;
-   
-}
 }
