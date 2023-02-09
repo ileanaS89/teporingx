@@ -100,7 +100,6 @@
     padding: 30px 20px 20px 30px;
     text-align: center;
     
-    
 }
 
 .contenedor-enc > div{
@@ -110,6 +109,7 @@
     font-weight: 400;
     font-size: 1.5rem;
 color: #162802;}
+
  .titulo-vin{
     font-family: 'phase';
     color: #0040D0;
@@ -186,4 +186,65 @@ pointer-events: unset;
     color: #fbf8f4;
     font-size: 1.5rem;
     width: 550px;
+}
+
+
+@media (max-width: 768px){
+    .titulo-encuentros{
+        font-size: 5rem;
+
+    }
+    
+    .titulo-enc-que{
+        font-size: 4rem;
+ 
+    }
+
+
+    .col-encuentros > .titulo{
+        font-size: 3rem;
+        width: 400px;
+    
+    }
+    
+    .col-encuentros > button{
+        margin-top: 90%;
+     
+    }
+  
+    .col-encuentros > .imagen-tres{
+        width:400px;
+    }
+    
+
+    .titulo-vin{
+ font-size: 3.5rem;
+       
+    }
+
+
+    
+/*MODAL*/
+
+
+.btn-cerrar-encuentros{
+    width: 150px;
+    font-size: 1.5rem;
+    top: 0px;
+    left: 0%;
+    position: none;
+
+  
+}
+
+.col-modal-encuentro >img {
+    width: 260px;
+    padding-top: 25%;
+
+}
+.col-modal-encuentro >p{
+    padding-top: 5%;
+    font-size: 1.5rem;
+    
+}
 }
