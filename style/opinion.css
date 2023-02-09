@@ -11,6 +11,11 @@ img{
     font-size: 7rem;
     padding-top: 10%;
 }
+
+.portada-descripcion{
+    color: #0040d0 ; width: 800px; font-size:1.5rem;
+}
+
  a{
     text-decoration: none;
  }
@@ -54,6 +59,8 @@ padding-top: 5%;}
  }
 
 /*RETRATOS-PORTADA*/
+
+
 
 .portada-retrato{
     text-align: center;
@@ -268,3 +275,99 @@ margin-left: 10%
  text-decoration: underline;
 }
 
+@media (max-width: 768px){
+    
+    .titulo-opinion-portada{
+        font-size: 4rem;
+        padding-top: 25%;
+    }
+    .col-dos-opinion{
+        display: flex;
+        justify-content: center;
+    }
+    .col-dos-opinion > img{
+       
+        width: 400px;
+        height: none;
+    }
+
+    .col-uno-opinion > h1{
+        font-size: 2rem;
+        padding-top: 5%;
+        text-align: center;
+    
+    }
+    
+    .col-uno-opinion > h3{
+        font-size: 1.5rem;
+    
+    }
+    
+    .col-uno-opinion > p{
+        font-size: 1.5rem;
+    padding-left:40px;
+    }
+    
+
+    .col-uno-opinion > .btn-flecha{
+        padding-left: 280px;
+      
+    }
+
+/*RETRATOS-ESPACIO SONORO*/
+.portada-descripcion{
+    width: 400px;
+}
+.portada-img{
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+}
+.componentes-portada-retrato {
+    display: inline-block;
+    text-align: center;
+    padding-top: 5%;
+  
+}
+
+.componentes-portada-retrato > h1{
+    font-size: 3rem;
+  
+}
+
+
+.btn-play{
+    font-size: 3rem;
+   
+}
+
+
+
+    /*te recomendamos*/
+    .titulo-opinion{font-size: 2.5rem ;}
+    .col-recomendacion-opinion{padding-top: 60px;}
+
+    .img-recomendacion{ width: 450px;   }
+        
+    .btn-play-dos, .subtitulo-contenido-recomendamos{
+      font-size: 3rem;}
+     
+     .subtitulo-contenido-recomendamos{
+    width: 300px;
+    margin-top: 10%;
+     }
+
+    .btn-play-dos {
+      margin-top: 50%;
+      padding-left: 60%;
+
+}
+
+    
+.gifpaste{ width: 450px;}
+
+.opacy{  opacity: 1}
+
+
+
+}
