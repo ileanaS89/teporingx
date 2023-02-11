@@ -18,13 +18,13 @@ function myfunction(){
 var catalogo = [
     {
         "ItemName" : "Las tres muertes de Marisela Escobedo, un ejercicio de memoria",
-        "ItemPrimaryImageUrl":"../img/opinion/opinion_uno.jpg",
+        "ItemPrimaryImageUrl":"./img/opinion/opinion_uno.jpg",
         "Autor" : "Por Teporingx",
         "ButtonIr" : "../html/art-uno.html"
     },
     {
         "ItemName" : "¿De dónde viene lo que comemos?",
-        "ItemPrimaryImageUrl": "../img/opinion/portada-de-donde-viene-lo-que-comemos.jpg",
+        "ItemPrimaryImageUrl": "./img/opinion/portada-de-donde-viene-lo-que-comemos.jpg",
         "Autor" : " Por Teporingx",
         "ButtonIr" : "../html/art-dos.html"
     },
