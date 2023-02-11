@@ -244,9 +244,10 @@ ul {
 @media (max-width: 768px){
 
     /*MENU*/
+    
     .search{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         
     }
     .logobar{
