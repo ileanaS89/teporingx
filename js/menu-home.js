@@ -3,12 +3,12 @@ document.getElementById('menu').innerHTML='<nav id="menuBarra" class="search">'
 +'<button class="menu" id="open"> MENÚ</button>'
 +'</div>'
 +'<div class="logobar">'
-+'<a href="../index.html"><img src="./img/logVerde.png" alt="logo-un teporingo azul " class="logoMenu" ></a>'
++'<a href="../index.html"><img src="./img/logoAzul.png" alt="logo-un teporingo azul " class="logoMenu" ></a>'
 +'</div>'
 +'</nav>'
 +'</header>'
 
-
+ 
 
 
 document.getElementById('footer').innerHTML='<div class= "container">'
